@@ -24,11 +24,13 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-        setSupportActionBar(yunstoolbar)
-       btnhakk.setOnClickListener {
-          val  intent = Intent (this, HakkimdaActivity::class.java)
-           startActivity(intent)
+      setSupportActionBar(yunstoolbar)
+
+        btnhakk.setOnClickListener { val intent = Intent(this, HakkimdaActivity::class.java)
+        startActivity(intent)
         }
+
+
     }
 
 
